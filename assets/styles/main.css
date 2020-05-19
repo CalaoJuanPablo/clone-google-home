@@ -26,6 +26,7 @@ figure img {
 a {
 	text-decoration: none;
 	color: inherit;
+	cursor: pointer;
 }
 
 nav ul {
@@ -56,11 +57,13 @@ header nav.top-menu ul li:first-of-type {
 }
 
 header nav.top-menu ul li figure.apps-logo {
+	cursor: pointer;
 	height: 30px;
 	width: 30px;
 }
 
 header nav.top-menu ul li figure.avatar {
+	cursor: pointer;
 	height: 32px;
 	width: 32px;
 }
