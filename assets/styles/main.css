@@ -142,6 +142,58 @@ main .offer p a {
 	color: #1a0dab;
 }
 
+main .offer p a:hover {
+	text-decoration: underline;
+}
+
 main .offer p a:visited {
 	color: #609;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+}
+
+footer .country {
+	color: rgba(0,0,0,0.54);
+	padding-left: 27px;
+	font-size: 14px;
+	border-bottom: 1px solid #e4e4e4;
+	line-height: 40px;
+}
+
+footer .footer-menu {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 27px;
+	padding-right: 30px;
+	font-size: 14px;
+}
+
+footer .footer-menu nav ul {
+	list-style: none;
+	padding-left: 0;
+	display: flex;
+	align-items: center;
+}
+
+footer .footer-menu nav ul li {
+	margin-left: 27px;
+}
+
+footer .footer-menu nav ul li:first-of-type {
+	margin-left: 0;
+}
+
+footer .footer-menu nav ul li a {
+	color: #5f6368;
+}
+
+footer .footer-menu nav ul li a:hover {
+	text-decoration: underline;
 }
