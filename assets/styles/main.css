@@ -67,6 +67,7 @@ main {
 	justify-content: center;
 	align-items: center;
 	height: calc(100vh - 96px);
+	padding-bottom: 100px;
 }
 
 main figure.logo {
@@ -75,9 +76,9 @@ main figure.logo {
 
 main .search-bar {
 	width: 584px;
-	height: 46px;
+	min-height: 46px;
 	margin-top: 32px;
-	margin-bottom: 32px;
+	margin-bottom: 16px;
 	padding: 0 16px;
 	border: 1px solid #dfe1e5;
 	border-radius: 24px;
@@ -106,4 +107,29 @@ main .search-bar input {
 
 main .search-bar input:active {
 	outline: none;
+}
+
+main .actions {
+
+}
+
+main .actions button {
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	border-radius: 4px;
+	color: #5f6368;
+	font-size: 14px;
+	margin: 11px 4px;
+	padding: 0 16px;
+	min-width: 54px;
+	height: 36px;
+	text-align: center;
+	cursor: pointer;
+}
+
+main .actions button:hover {
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	background-color: #f8f8f8;
+	border-color: #c6c6c6;
+	color: #222222;
 }
